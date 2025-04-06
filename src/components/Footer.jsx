@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react'
-//<h1 className='bg-blue-500 w-full mx-auto py-4 h-[calc(100vh-550px)] mt-[30px]'>Footer</h1>
+
 class Footer extends PureComponent {
     constructor(props) {
         super(props)

@@ -1,4 +1,7 @@
 import React, { PureComponent, ReactNode } from 'react'
+import { Button } from '../components/Button';
+import { Input } from '../components/Input';
+import { Text } from '../components/Text';
 
 interface Props {}
 interface State {}
@@ -14,7 +17,12 @@ class Home extends PureComponent<Props, State> {
 
     render(): ReactNode {
         return (
-            <h1 className='bg-gray-500'>Home</h1>
+            <>
+                <h1>Home</h1>
+                <Button size="medium" color="primary" title="Принять" onClick={()=>alert("hello")}/>
+                <Text size="large" color="primary" align="center" title="Hello, world!"/>
+                <Input size="large" borderColor="primary" placeholder="Hello"/>
+            </>
         )
     }
 }

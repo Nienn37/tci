@@ -14,16 +14,15 @@ function App() {
 
   return (
     <>
-    <Header/>
-    <BrowserRouter>
+      <Header/>
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/blog" element={<Blog />} />
         </Routes>
       </BrowserRouter>
-      <Footer class/>
-      {/* <div className='bg-red-500 text-lg'>HELLO</div> */}
+      <Footer/>
     </>
   )
 }
