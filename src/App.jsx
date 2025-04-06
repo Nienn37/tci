@@ -22,7 +22,7 @@ function App() {
           <Route path="/blog" element={<Blog />} />
         </Routes>
       </BrowserRouter>
-      <Footer/>
+      <Footer class/>
       {/* <div className='bg-red-500 text-lg'>HELLO</div> */}
     </>
   )
