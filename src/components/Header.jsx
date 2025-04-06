@@ -14,9 +14,10 @@ class Header extends PureComponent {
             
             <div class="bg-white shadow-sm">
                 <div class="flex justify-start items-center p-4 gap-4">
-                    <a href="/">Home </a>
-                    <a href="/about">About </a>
-                    <a href="/blog">Blog </a>
+                    <a href="/">Главная </a>
+                    <a href="/about">О нас </a>
+                    <a href="/blog">Блог </a>
+                    <a href="/cart">Корзина</a>
                 </div>
             </div>
         )

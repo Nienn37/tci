@@ -18,9 +18,8 @@ class Home extends PureComponent<Props, State> {
     render(): ReactNode {
         return (
             <>
-                <h1>Home</h1>
                 <Button size="medium" color="primary" title="Принять" onClick={()=>alert("hello")}/>
-                <Text size="large" color="primary" align="center" title="Hello, world!"/>
+                <Text size="large" color="primary" align="left" title="Hello, world!"/>
                 <Input size="large" borderColor="primary" placeholder="Hello"/>
             </>
         )
